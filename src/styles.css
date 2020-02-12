@@ -9,12 +9,12 @@ body {
   width: 60%;
 }
 
-.charClass {
+.charClass, .race {
   margin: 10px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
-.charClass:hover {
+.charClass:hover, .race:hover {
   opacity: 0.7;
 }
 
@@ -27,4 +27,8 @@ h1 {
 hr {
   border: 1px solid black;
   margin: 0 10px 10px 10px;
+}
+
+#races {
+  display: none;
 }
