@@ -5,4 +5,8 @@ export class Character {
   addRace(race) {
     this.race = race;
   }
+
+  addName(name) {
+    this.name = name;
+  }
 }

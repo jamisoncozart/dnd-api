@@ -37,4 +37,10 @@ $(document).ready(function() {
     raceDiv.hide();
     console.log(character);
   });
+  $("#formName").submit(function(event) {
+    event.preventDefault();
+    let name = $("#inputName").val();
+    character.addName(name);
+    $("#formName").hide();
+  });
 });
