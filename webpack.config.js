@@ -20,7 +20,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'api-practice',
       template: './src/index.html',
-      inject: 'body'
+      inject: 'head'
     })
   ],
   module: {

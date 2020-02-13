@@ -18,4 +18,12 @@
 * Character data is represented for the user.
   * Input: User clicks button.
   * Output: Character-sheet is represented.
-  
+    * Inlude stats into the character sheet.
+
+* Allocate skill points to character object
+  * Input: User adds point to skill attribute.
+  * Output: Continue to add points as desired.
+
+* "Unable to add more skill points, grind some more"
+  * Input: User attempts to add skill points to attributes
+  * Output: Nope.

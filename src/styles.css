@@ -32,3 +32,11 @@ hr {
 #races {
   display: none;
 }
+
+#name {
+  display: none;
+}
+
+#charSheet {
+  display: none;
+}
